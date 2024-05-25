@@ -4,11 +4,13 @@
 
 @import "https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700";
 body {
-    background-image: url("/images/background/windows-vista-1920x1080-aurora-microsoft-5k-23361.png");
+    background-image: url("/images/background/wp4153928-server-wallpapers.jpg");
     background-repeat: no-repeat;
-    background-position: right top;
+    background-position: left top;
     background-attachment: fixed;
     background-color: #fbfbfb;
+    background-size: cover;
+    font-family: Verdana, sans-serif;
 }
 
 p {
@@ -29,7 +31,7 @@ a:focus {
 
 .navbar {
     padding: 15px 10px;
-    background: #fff;
+    background: rgba(0,0,0,0.5);
     border: none;
     border-radius: 0;
     margin-bottom: 40px;
@@ -62,7 +64,7 @@ a:focus {
 #sidebar {
     min-width: 250px;
     max-width: 250px;
-    background: #7386D5;
+    background: rgba(0,0,0,0.5);
     color: #fff;
     transition: all 0.3s;
 }
@@ -73,7 +75,7 @@ a:focus {
 
 #sidebar .sidebar-header {
     padding: 20px;
-    background: #6d7fcc;
+    background: #999999;
 }
 
 #sidebar ul.components {
@@ -93,14 +95,14 @@ a:focus {
 }
 
 #sidebar ul li a:hover {
-    color: #7386D5;
+    color: #999999;
     background: #fff;
 }
 
 #sidebar ul li.active>a,
 a[aria-expanded="true"] {
     color: #fff;
-    background: #6d7fcc;
+    background: #999999;
 }
 
 a[data-toggle="collapse"] {
@@ -118,7 +120,7 @@ a[data-toggle="collapse"] {
 ul ul a {
     font-size: 0.9em !important;
     padding-left: 30px !important;
-    background: #6d7fcc;
+    background: #999999;
 }
 
 ul.CTAs {
@@ -135,12 +137,12 @@ ul.CTAs a {
 
 a.download {
     background: #fff;
-    color: #7386D5;
+    color: #999999;
 }
 
 a.article,
 a.article:hover {
-    background: #6d7fcc !important;
+    background: #999999 !important;
     color: #fff !important;
 }
 
